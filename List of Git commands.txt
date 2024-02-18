@@ -1,0 +1,27 @@
+-- Git commands
+
+1. git init -> initializes .git in your project directory, it creates a repository locally on your machine.
+
+2. git clone <repository-url> -> Creates a local copy of a remote repository. This command is used to initially clone and start working on an existing repository hosted on a service like GitHub.
+
+3. git add <file-or-directory> or git add .(for selecting all)-> Stages changes in files or directories for commit. It's how you tell Git which changes you want to include in the next commit.
+
+4. git commit -m "<message>"-> Commits the staged changes to the repository's history. The -m flag allows you to include a commit message inline.
+
+5. git status-> Shows the status of changes as untracked, modified, or staged. It's a way to see what's happening in your repository.
+
+6. git push origin <branch>-> Pushes committed changes from your local branch to a remote repository. origin is the default name for the remote, and <branch> is the branch you're pushing.
+
+7. git pull origin <branch>-> Fetches changes from the remote branch and merges them into your current local branch. It combines git fetch and git merge.\
+
+8. git fetch origin-> Downloads updates from the remote repository but doesn't merge them. Useful for updating your remote-tracking references.
+
+9. git checkout <branch-name> or git switch <branch-name> -> Switches to another branch in your repository. It's how you move between different development paths or features.
+
+10. git branch -d <branch-name> -> is used to delete a particular branch name from your local Git repository. The -d option stands for "delete". However, Git will only allow the branch to be deleted if it has been fully merged into its parent branch (typically master or main). This safety feature prevents you from losing work that hasn't been incorporated into the main development line.
+
+11. git branch -D <branch-name> -> To force delete a branch regardless of its merge status, you would use the -D flag instead of -d.
+
+12. git branch -a -> lists all branches in your local Git repository, along with all remote-tracking branches that your local repository knows about.
+
+13. The git merge <branch-name> -> command is used to integrate changes from one branch into another branch in your Git repository
