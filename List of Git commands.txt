@@ -1,0 +1,45 @@
+-- Git commands
+
+1. git init -> initializes .git in your project directory, it creates a repository locally on your machine.
+
+2. git clone <repository-url> -> Creates a local copy of a remote repository. This command is used to initially clone and start working on an existing repository hosted on a service like GitHub.
+
+3. git add <file-or-directory> or git add .(for selecting all)-> Stages changes in files or directories for commit. It's how you tell Git which changes you want to include in the next commit.
+
+4. git commit -m "<message>"-> Commits the staged changes to the repository's history. The -m flag allows you to include a commit message inline.
+
+5. git status-> Shows the status of changes as untracked, modified, or staged. It's a way to see what's happening in your repository.
+
+6. git push origin <master or another branch name>-> Pushes committed changes from your local branch to a remote repository. origin is the default name for the remote, and <branch> is the branch you're pushing.
+
+7. git pull origin <master or another branch name > -> Fetches changes from the remote branch and merges them into your current local branch. It combines git fetch and git merge.
+
+8. git fetch origin-> Downloads updates from the remote repository but doesn't merge them. Useful for updating your remote-tracking references.
+
+9. git checkout <branch-name> or git switch <branch-name> -> Switches to another branch in your repository. It's how you move between different development paths or features.
+
+10. git branch -d <branch-name> -> is used to delete a particular branch name from your local Git repository. The -d option stands for "delete". However, Git will only allow the branch to be deleted if it has been fully merged into its parent branch (typically master or main). This safety feature prevents you from losing work that hasn't been incorporated into the main development line.
+
+11. git branch -D <branch-name> -> To force delete a branch regardless of its merge status, you would use the -D flag instead of -d.
+
+12. git branch -a -> lists all branches in your local Git repository, along with all remote-tracking branches that your local repository knows about.
+
+13. The git merge <branch-name> -> command is used to integrate changes from one branch into another branch in your Git repository
+
+14. git remote add origin https://github.com/username/repository.git -> Suppose you have a GitHub repository at https://github.com/username/repository.git and you want to link it to your local repository as origin. You would navigate to your local repository's directory in your terminal or command prompt and run.
+After running this command, the remote named origin is now linked to your GitHub repository URL. 
+
+15. git remote -v -> This command will display all remotes associated with your local repository, including the URLs linked to each remote name
+
+16. git remote set-url <alias(origin in most cases)> new-url -> If you ever need to change the URL associated with a remote name 
+
+18. git remote add <alias (origin in most cases)> <remote-url>-> Adds a new remote repository under the specified alias, allowing you to reference the repository by a shorthand name.
+
+19. git remote remove <old-alias> -> you can remove your old alias name and set it to another name by using the command above to add another alias name for your remote repository.
+
+20. git branch <branch name> -> creates a new branch.
+
+21. git checkout -b <branch-name> -> creates and switches to a new branch.
+
+
+
