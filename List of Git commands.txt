@@ -39,5 +39,7 @@ After running this command, the remote named origin is now linked to your GitHub
 
 20. git branch <branch name> -> creates a new branch.
 
+21. git checkout -b <branch-name> -> creates and switches to a new branch.
+
 
 
