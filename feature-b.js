@@ -23,3 +23,5 @@ subjects.forEach(subject => {
     const grade = checkGrade(parseInt(score, 10)); // Parse score as integer
     document.write(`${subject}: ${grade}<br>`); // Print the grade for the subject
 });
+
+document.getElementById('anotherone').innerHTML="Made another commit";
