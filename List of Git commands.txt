@@ -25,3 +25,10 @@
 12. git branch -a -> lists all branches in your local Git repository, along with all remote-tracking branches that your local repository knows about.
 
 13. The git merge <branch-name> -> command is used to integrate changes from one branch into another branch in your Git repository
+
+14. git remote add origin https://github.com/username/repository.git -> Suppose you have a GitHub repository at https://github.com/username/repository.git and you want to link it to your local repository as origin. You would navigate to your local repository's directory in your terminal or command prompt and run.
+After running this command, the remote named origin is now linked to your GitHub repository URL. 
+
+15. git remote -v -> This command will display all remotes associated with your local repository, including the URLs linked to each remote name
+
+git remote set-url origin new-url -> If you ever need to change the URL associated with a remote name 
