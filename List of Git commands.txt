@@ -41,5 +41,4 @@ After running this command, the remote named origin is now linked to your GitHub
 
 21. git checkout -b <branch-name> -> creates and switches to a new branch.
 
-
-
+22. git log --oneline command in Git is used to display the commit history in a concise format. Each commit is shown on a single line, which makes it easier to get a quick overview of the project history
