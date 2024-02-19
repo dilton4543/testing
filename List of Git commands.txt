@@ -10,9 +10,9 @@
 
 5. git status-> Shows the status of changes as untracked, modified, or staged. It's a way to see what's happening in your repository.
 
-6. git push origin <branch>-> Pushes committed changes from your local branch to a remote repository. origin is the default name for the remote, and <branch> is the branch you're pushing.
+6. git push origin <master or another branch name>-> Pushes committed changes from your local branch to a remote repository. origin is the default name for the remote, and <branch> is the branch you're pushing.
 
-7. git pull origin <branch>-> Fetches changes from the remote branch and merges them into your current local branch. It combines git fetch and git merge.\
+7. git pull origin <master or another branch name > -> Fetches changes from the remote branch and merges them into your current local branch. It combines git fetch and git merge.
 
 8. git fetch origin-> Downloads updates from the remote repository but doesn't merge them. Useful for updating your remote-tracking references.
 
