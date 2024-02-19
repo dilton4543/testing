@@ -31,4 +31,13 @@ After running this command, the remote named origin is now linked to your GitHub
 
 15. git remote -v -> This command will display all remotes associated with your local repository, including the URLs linked to each remote name
 
-git remote set-url origin new-url -> If you ever need to change the URL associated with a remote name 
+16. git remote set-url <alias(origin in most cases)> new-url -> If you ever need to change the URL associated with a remote name 
+
+18. git remote add <alias (origin in most cases)> <remote-url>-> Adds a new remote repository under the specified alias, allowing you to reference the repository by a shorthand name.
+
+19. git remote remove <old-alias> -> you can remove your old alias name and set it to another name by using the command above to add another alias name for your remote repository.
+
+20. git branch <branch name> -> creates a new branch.
+
+
+
